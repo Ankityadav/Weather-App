@@ -1,0 +1,71 @@
+*{
+    color: #E8175D;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+h1{
+    color:#212121;
+    text-shadow: 1px 1px #000;
+    margin-top: -3px;
+    font-weight: 400;
+    font-size: 100px;
+
+}
+.wrapper{
+    background-image: url("http://img13.deviantart.net/51c6/i/2012/228/e/4/color_splash_by_totron-d5ba2mp.jpg");
+    background-repeat: round;
+    width: 100%;
+    height: 430px;
+    border-bottom: 4px solid #212121;
+    border-top: 2px solid #212121;
+
+}
+p{
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btn,.btn-floating ,
+.btn:hover ,.btn-floating:hover
+{
+
+    color:#E8175D;
+    background-color: #212121;
+}
+.btn-floating{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.btn{
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400
+}
+#copyright{
+    color:#212121;
+    font-size: 12px;
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: -14px;
+    padding-top: 0px;
+
+}
+.hidden{
+    display:none;
+}
+#logoImg{
+    margin-top: 30px;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background-color:rgba(230,23,95,.79);
+    border-radius: 8px;
+    padding: 20px;
+}

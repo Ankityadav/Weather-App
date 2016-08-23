@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ankit Yadav">
+    <meta name="description" content="Weather app">
+    <title>Weather App</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="wrapper ">
+    <div class="logo center ">
+        <img src="https://cdn3.iconfinder.com/data/icons/weather-and-forecast/51/Weather_icons_grey-03-512.png" class="z-depth-2" id="logoImg">
+    </div>
+    <div class="container ">
+
+        <div class="row valign-wrapper">
+            <div class="col center-align s12">
+                <br class="hide-on-small-and-down">
+                <br class="hide-on-med-and-down">
+                <h1>Weather App</h1>
+            </div>
+        </div>
+    </div> <!-- Heading End-->
+</div> <!--Wrapper End -->
+<div class="row detailView">
+    <div class="col s12 center ">
+        <a class=" btn z-depth-1" id="moreDetail">Show More</a>
+    </div>
+</div> <!-- More Detail Pane-->
+
+
+    <div class="normalView">
+        <div class="row ">
+            <div class="col s8 center ">
+                <h4>Location</h4>
+            </div>
+            <div class="col s4 ">
+                <p id="location" class="center"> </p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col s8 center">
+                <h4>Temperature</h4>
+            </div>
+            <div class="col s2 ">
+                <p id="temperatureCelcius" class="right"></p>
+            </div>
+            <div class=" col s2">
+                <a class="btn-floating z-depth-2 center " id="tempChange"></a>
+            </div>
+        </div>
+
+        <!--  More Detail Started -->
+
+<div class="hidden" id="morePane">
+        <div class="row ">
+            <div class="col s8 center ">
+                <h4>Humidity</h4>
+            </div>
+            <div class="col s4 center ">
+                <p id="humidity" class="center"></p>
+            </div>
+        </div>
+
+    <div class="row ">
+        <div class="col s8 center ">
+            <h4>Wind</h4>
+        </div>
+        <div class="col s4 center ">
+            <p id="wind" class="center"></p>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col s6 center push-s1">
+            <p id="weather"></p>
+        </div>
+        <div class="col s6 pull-s2">
+            <p id="weatherIcon" class=" right"> </p>
+
+        </div>
+    </div>
+</div>
+        <div class="row ">
+            <div class="col s12 center  ">
+                <a class=" btn z-depth-1" id="refreshWeather">Refresh</a>
+            </div>
+
+        </div>
+    </div> <!-- Normal View End -->
+
+<footer>
+    <a href="#" id="copyright">Created By Ankit Yadav</a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/weather.js"></script>
+
+</body>
+
+</html>
